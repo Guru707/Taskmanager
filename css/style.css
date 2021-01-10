@@ -1,0 +1,30 @@
+body{
+    background: #e0e5ec; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    box-shadow: 10px 10px 15px rgb(163 177 198 / 45%), -10px -10px 15px rgb(255 255 255 / 45%);
+    background: #e0e5ec;
+    border-radius: 5px;
+}
+.collection-box{
+    border:none;
+    width:100%;
+    overflow:visible;
+    display: inline-block;
+}
+.collection-box .collection-item{
+    background: #e0e5ec;
+    box-shadow: 10px 10px 15px rgb(163 177 198 / 45%), -10px -10px 15px rgb(255 255 255 / 45%);
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s ease-in;
+}
+.remove-animation{
+  transform: translateX(5rem) rotateY(20deg);
+  opacity: 1;
+}
